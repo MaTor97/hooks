@@ -38,8 +38,8 @@ Chaque composant montre l'utilisation d'un hook spécifique. Par exemple :
 Clonez ce repository et installez les dépendances avec npm :
 
 ```
-git clone <URL du repository> 
-cd <dossier du projet> 
+git clone git@github.com:MaTor97/hooks.git
+cd hooks_demo
 npm install
 
 ```
