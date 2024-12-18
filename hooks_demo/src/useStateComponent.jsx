@@ -8,7 +8,7 @@ function UseStateComponent() {
   const [newUserName, setNewUserName] = useState('');
 
   const addUser = () => {
-    const newUser = { id: users.length + 1, name: newUserName, email: '', age: 0 };
+    const newUser = { id: users.length + 1, name: newUserName };
     setUsers([...users, newUser]);
     setNewUserName('');
   };

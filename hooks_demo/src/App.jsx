@@ -19,6 +19,12 @@ function App() {
       <h2>useState</h2>
       <UseStateComponent />
 
+      <h2>useLayoutEffect</h2>
+      <UseLayoutEffectComponent />
+
+      <h2>useTransition</h2>
+      <UseTransitionComponent />
+
       <h2>useEffect</h2>
       <UseEffectComponent />
 
@@ -28,20 +34,15 @@ function App() {
       <h2>useMemo</h2>
       <UseMemoComponent />
 
+      <h2>useDeferredValue</h2>
+      <UseDeferredValueComponent />
+      
       <h2>useCallback</h2>
       <UseCallbackComponent />
 
       <h2>useReducer</h2>
       <UseReducerComponent />
-
-      <h2>useLayoutEffect</h2>
-      <UseLayoutEffectComponent />
-
-      <h2>useTransition</h2>
-      <UseTransitionComponent />
-
-      <h2>useDeferredValue</h2>
-      <UseDeferredValueComponent />
+      
     </div>
   );
 }
